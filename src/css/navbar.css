@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+* {
+  transition: all 0.3s ease;
+}
+#nav-ul {
+  gap: 3rem;
+}
+#nav-ul li:hover {
+  transform: scale(1.2);
+  color: rgb(249 115 22);
+}
+.active {
+  color: rgb(249 115 22);
+}
+#logo {
+  font-family: "Amatic SC", cursive;
+}
