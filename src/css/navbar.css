@@ -13,6 +13,26 @@
 .active {
   color: rgb(249 115 22);
 }
+
 #logo {
   font-family: "Amatic SC", cursive;
+}
+
+@media screen and (max-width: 500px) {
+  #sidebar #nav-ul {
+    font-size: 17px;
+  }
+  #sidebar #user-photo {
+    width: 35px;
+    height: 35px;
+  }
+  #logo {
+    font-size: 30px;
+    margin-right: 6px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #sidebar #user-photo {
+    display: none;
+  }
 }

@@ -1,9 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url("https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 html {
   background-color: #f7f7f7d5;
   font-family: "Noticia Text", serif;
   scroll-behavior: smooth;
+}
+#app {
+  height: 100vh;
+}
+@media screen and (max-width: 1000px) {
+  #first-meet-part {
+    flex-direction: column;
+    text-align: center;
+  }
+  #main-home-page {
+    max-width: 1000px;
+  }
+}
+@media screen and (max-width: 840px) {
+  #first-meet-part #photo {
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+  }
+  #photo #image-bungalowView {
+    width: 600px;
+    height: 600px;
+    margin-right: auto;
+  }
+  #main-home-page {
+    max-width: 840px;
+  }
 }
