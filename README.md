@@ -1,7 +1,17 @@
-# Getting Started with Create React App
+# `You can preview this site in`
+# => https://bungalow-hotel-app.netlify.app/
+
+My primary goal with this project was to allow users to create reservations and for the admin to add hotels to the list. Although I did not build a panel, I was able to add hotels to the list using the API file I wrote with the Redux Toolkit.
+
+I developed this project using the React library. I utilized the Redux Toolkit library of React for APIs in my project. For CSS styling and design, I mostly used Tailwind CSS. As for the database, I used Firebase's SQL.
+
+`After creating a reservation, you can view your reservation on the "reservations" page.`
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
